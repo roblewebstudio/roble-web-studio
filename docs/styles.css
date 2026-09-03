@@ -4,4 +4,22 @@
 @media(max-width:520px){.site-header{height:68px}.button-small{font-size:0;padding:10px}.button-small span{font-size:1rem}.hero-content{width:calc(100% - 40px)}.hero h1{font-size:3.4rem}.hero-copy{font-size:1rem}.hero-actions{align-items:flex-start;flex-direction:column;gap:10px}.section-pad{padding-left:20px;padding-right:20px}.project-visual{margin-left:-20px;margin-right:-20px;padding:18px 10px}.mock-hero{padding-top:45px;padding-bottom:45px}.mock-hero strong{font-size:2.4rem}.coffee-card{padding-left:6%;padding-right:6%}.coffee-card nav span{display:none}.service-grid article{grid-template-columns:42px 1fr}.contact-email{font-size:.9rem;gap:10px}footer{align-items:flex-start;flex-direction:column}}
 .hero-image{object-position:center 48%}.photo-credit{margin:3px 0 0;font-size:.68rem;color:#6f7988}.photo-credit a{text-decoration:underline;text-underline-offset:2px}.photo-credit a:hover{color:#c8d59d}footer>div>p:first-child{margin:0}
 .mock-browser,.coffee-card{transform:none}
+.project-link
+{
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 24px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--blue);
+    color: var(--white);
+    font-weight: 700;
+}
+
+.project-link:hover
+{
+    color: var(--blue2);
+}
+.mock_button{display:inline-block;border:0;padding:12px 16px;background:#d6b264;color:#111;font-weight:800;font-style:normal}
+.coffee-card .mock_button{background:#f2d0a7}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
